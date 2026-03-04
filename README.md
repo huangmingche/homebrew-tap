@@ -20,6 +20,8 @@ brew install <formula>
 |---------|---------|-------------|
 | [browsercli](https://github.com/huangmingche/browsercli) | 1.0.4 | A local-first browser rendering CLI for live preview, browser control, and DevTools capture. |
 | [camgrab](https://github.com/huangmingche/camgrab) | 1.0.1 | A fast, single-binary IP camera CLI for snapshots, recording, and motion detection. |
+| [mdansi](https://github.com/huangmingche/mdANSI) | 0.1.0 | A blazing-fast Markdown-to-ANSI CLI for terminal rendering, LLM streaming, and syntax highlighting. |
+| [termpulse](https://github.com/huangmingche/termpulse) | 0.1.0 | A native terminal progress indicator CLI for smart detection, graceful fallback, and zero configuration. |
 
 ### browsercli
 
@@ -36,3 +38,19 @@ brew install huangmingche/tap/camgrab
 ```
 
 A fast, single-binary IP camera CLI for snapshots, recording, and motion detection. Zero external dependencies -- no ffmpeg required.
+
+### mdansi
+
+```bash
+brew install huangmingche/tap/mdansi
+```
+
+A blazing-fast Markdown-to-ANSI CLI for terminal rendering, LLM streaming, and syntax highlighting. Built-in syntax highlighting for 200+ languages, streaming mode for LLM output, and TOML-configurable themes.
+
+### termpulse
+
+```bash
+brew install huangmingche/tap/termpulse
+```
+
+A native terminal progress indicator CLI for smart detection, graceful fallback, and zero configuration. Auto-detects 10+ terminals, three-tier fallback (OSC 9;4 > ASCII > silent), tmux DCS passthrough.
