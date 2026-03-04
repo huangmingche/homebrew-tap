@@ -23,6 +23,7 @@ brew install <formula>
 | [mdansi](https://github.com/huangmingche/mdANSI) | 0.1.0 | A blazing-fast Markdown-to-ANSI CLI for terminal rendering, LLM streaming, and syntax highlighting. |
 | [termpulse](https://github.com/huangmingche/termpulse) | 0.1.0 | A native terminal progress indicator CLI for smart detection, graceful fallback, and zero configuration. |
 | [tmuxpulse](https://github.com/huangmingche/tmuxpulse) | 0.1.0 | A real-time, event-driven tmux TUI for session monitoring, pane search, and stale cleanup. |
+| [tokencost](https://github.com/huangmingche/tokencost) | 0.1.0 | A unified LLM token cost CLI for usage normalization, cost estimation, and multi-provider pricing. |
 
 ### browsercli
 
@@ -63,3 +64,11 @@ brew install huangmingche/tap/tmuxpulse
 ```
 
 A real-time, event-driven tmux TUI for session monitoring, pane search, and stale cleanup. Live session tree, fuzzy pane search, and automatic stale session detection.
+
+### tokencost
+
+```bash
+brew install huangmingche/tap/tokencost
+```
+
+A unified LLM token cost CLI for usage normalization, cost estimation, and multi-provider pricing. Supports OpenAI, Anthropic, Google, and more with a single unified interface.
