@@ -22,6 +22,7 @@ brew install <formula>
 | [browserx](https://github.com/huangmingche/browserx) | 0.1.0 | A cross-platform browser cookie extraction CLI for session replay, authentication, and automation. |
 | [browsertap](https://github.com/huangmingche/browsertap) | 0.1.0 | A real-time browser control CLI for live tab capture, DOM interaction, and agent automation. |
 | [camgrab](https://github.com/huangmingche/camgrab) | 1.0.1 | A fast, single-binary IP camera CLI for snapshots, recording, and motion detection. |
+| [ironclaw-zh](https://github.com/huangmingche/ironclaw-zh) | 0.16.1-zh.1 | A secure personal AI assistant - Chinese-localized distribution for local-first deployment and self-hosting. |
 | [mdansi](https://github.com/huangmingche/mdANSI) | 0.1.0 | A blazing-fast Markdown-to-ANSI CLI for terminal rendering, LLM streaming, and syntax highlighting. |
 | [termpulse](https://github.com/huangmingche/termpulse) | 0.1.0 | A native terminal progress indicator CLI for smart detection, graceful fallback, and zero configuration. |
 | [tmuxpulse](https://github.com/huangmingche/tmuxpulse) | 0.1.0 | A real-time, event-driven tmux TUI for session monitoring, pane search, and stale cleanup. |
@@ -58,6 +59,14 @@ brew install huangmingche/tap/camgrab
 ```
 
 A fast, single-binary IP camera CLI for snapshots, recording, and motion detection. Zero external dependencies -- no ffmpeg required.
+
+### ironclaw-zh
+
+```bash
+brew install huangmingche/tap/ironclaw-zh
+```
+
+A secure personal AI assistant - Chinese-localized distribution for local-first deployment and self-hosting. Community-maintained fork of [nearai/ironclaw](https://github.com/nearai/ironclaw) with full Chinese localization and local-first defaults.
 
 ### mdansi
 
